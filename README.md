@@ -37,10 +37,12 @@
 **Задание 1**
 
 ```php
+<?php
 if (!empty($_GET['city'])) {
     $city = $_GET['city'];
     echo 'Ваш город: ' . $city;
 }
+?>
 <form action="" method="get">
     Город: <input type="text" name="city"><br>
     <input type="submit">
